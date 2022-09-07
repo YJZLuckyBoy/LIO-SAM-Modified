@@ -402,11 +402,13 @@ public:
 
     void odomDeskewInfo()
     {
+        static float delay_time = imu_rate > 300 ? 0.01 : 0.20;
+
         cloudInfo.odomAvailable = false;
 
         while (!odomQueue.empty())
         {
-            if (odomQueue.front().header.stamp.toSec() < timeScanCur - 0.01)
+            if (odomQueue.front().header.stamp.toSec() < timeScanCur - delay_time)
                 odomQueue.pop_front();
             else
                 break;

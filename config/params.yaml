@@ -36,6 +36,7 @@ lio_sam:
   ang_res_y: 1.0                              # if 'has_ring' is false, change it
 
   # IMU Settings
+  imuRate: 500
   imuAccNoise: 3.9939570888238808e-03
   imuGyrNoise: 1.5636343949698187e-03
   imuAccBiasN: 6.4356659353532566e-05

@@ -3,6 +3,8 @@
 
   2. 增加自动解算线号及相对时间, 使用自动解算需设置参数‘has_ring: false‘, 同时需要根据雷达特性设置最低线束角度‘ang_bottom’及竖直方向角度分辨率‘ang_res_y’;
 
+  3. 新增适配低频IMU（50HZ、100HZ）, 可通过yaml文件将参数"imuRate"配置为IMU实际频率;
+
   更多修改细节可参考博客：https://blog.csdn.net/qq_42938987/article/details/108434290
 
 # TODO
