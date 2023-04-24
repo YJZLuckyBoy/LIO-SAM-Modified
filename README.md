@@ -5,6 +5,12 @@
 
   3. 新增适配低频IMU（50HZ、100HZ）, 可通过yaml文件将参数"imuRate"配置为IMU实际频率;
 
+  4. 更多型号雷达支持及更加鲁棒版本请使用[liorf](https://github.com/YJZLuckyBoy/liorf);
+
+  5. Lidar-Camera-IMU融合建图版本请使用[lviorf](https://github.com/YJZLuckyBoy/lviorf);
+
+  6. 基于已知地图定位版本请使用[liorf_localization](https://github.com/YJZLuckyBoy/liorf_localization);
+
   更多修改细节可参考博客：https://blog.csdn.net/qq_42938987/article/details/108434290
 
 # TODO
